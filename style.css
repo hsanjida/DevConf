@@ -20,8 +20,7 @@ nav {
     color: #0d1b2a;
 }
 
-.menu ul,
-li {
+.menu ul, .menu li {
     text-decoration: none;
     display: flex;
     justify-content: space-evenly;
@@ -75,7 +74,7 @@ li {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    margin: 4rem 2rem;
+    margin: 4rem 6rem;
     
 }
 
@@ -111,7 +110,7 @@ li {
     color: blue;
 }
 
-.speakers-title{
+.speakers-title, .pricing h2 {
     font-size: 2rem;
     display: flex;
     justify-content: center;
@@ -119,3 +118,136 @@ li {
     margin: 4rem 2rem;
 }
 
+.pricing h2 {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 2rem;
+}
+
+.pricing-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 2rem;
+    color: #575757;
+}
+
+.p-cards{
+    display:flex;
+    justify-content: space-evenly;
+    padding: 0 2rem;
+    margin-bottom: 4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    gap: .5rem;
+}
+
+.p-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: .5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+}
+
+.p-card-pro{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: .5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: #0D1B2A;
+    color: white;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+}
+
+#pro{
+    color: #1d4ed8;
+}
+
+.price{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.btn-outline{
+    background-color: white;
+    color: #1d4ed8;
+    border: 2px solid #1d4ed8;
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-outline-1{
+    background-color: white;
+    color: #575757;
+    border: 2px solid #575757;
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem 2rem;
+}
+
+.pricing{
+    margin: 1rem 4rem;
+}
+
+footer{
+    background-color:#0D1B2A;
+    color:white;
+    padding:40px 80px;
+}
+
+.footer-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+
+.social-links{
+    display:flex;
+    gap:20px;
+}
+
+.social-links a{
+    color:white;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+hr{
+    border:none;
+    border-top:1px solid #334155;
+    margin:20px 0;
+}
+
+.footer-bottom{
+    text-align:center;
+    color:#94a3b8;
+    font-size:14px;
+}
+
+.social-links a{
+    color:white;
+    font-size:22px;
+    transition:0.3s;
+}
