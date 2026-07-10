@@ -1,6 +1,7 @@
 ### Prompt Used
 
 > gave image
+>
 > You are a experienced web developer. Review the current DevConf 2026 landing page and identify the missing section between the Pricing section and the Footer.
 >
 > - Identify the likely purpose and target audience of the missing section.
